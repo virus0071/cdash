@@ -86,49 +86,95 @@
 
                         <h4>Jason</h4>
                         <h4>Underwood</h4>
-                        <ul class="social-icon">
-                            <li><a href="#" target="_blank" class="fab fa-instagram wow bounceIn"
-                                    data-wow-delay="0.3s"></a></li>
-                            <li><a href="#" target="_blank" class="fab fa-twitter-square wow bounceIn"
-                                    data-wow-delay="0.3s"></a></li>
-                            <li><a href="#" target="_blank" class="fab fa-facebook-square wow bounceIn"
-                                    data-wow-delay="0.6s"></a></li>
-                            <li><a href="#" target="_blank" class="fab fa-google-plus-square wow bounceIn"
-                                    data-wow-delay="0.6s"></a>
-                            </li>
-                        </ul>
+
+
                         <img class="myPhoto" src="images/nn.jpg" />
+
+
+
+
+
+                        <div class="tab">
+                            <button class="tablinks" onclick="openContact(event, 'Phone')"><a target="_blank"
+                                    class="fas fa-phone wow bounceIn" data-wow-delay="0.3s">
+                                </a></button>
+                            <button class="tablinks" onclick="openContact(event, 'Cell')"><a target="_blank"
+                                    class="fas fa-mobile wow bounceIn" data-wow-delay="0.3s">
+                                </a></button>
+                            <button class="tablinks" onclick="openContact(event, 'Email')"><a target="_blank"
+                                    class="fas fa-envelope-open-text wow bounceIn" data-wow-delay="0.3s">
+                                </a></button>
+                            <button class="tablinks" onclick="openContact(event, 'Instagram')"><a target="_blank"
+                                    class="fab fa-instagram wow bounceIn" data-wow-delay="0.3s"></a></button>
+                            <button class="tablinks" onclick="openContact(event, 'Twitter')"><a target="_blank"
+                                    class="fab fa-twitter-square wow bounceIn" data-wow-delay="0.3s"></a></button>
+                            <button class="tablinks" onclick="openContact(event, 'Facebook')"><a target="_blank"
+                                    class="fab fa-facebook-square wow bounceIn" data-wow-delay="0.6s"></a></button>
+                            <button class="tablinks" onclick="openContact(event, 'Google')"><a target="_blank"
+                                    class="fab fa-google-plus-square wow bounceIn" data-wow-delay="0.6s"></a></button>
+                        </div>
+
+                        <div id="Phone" class="tabcontent">
+                            +1(216)000-0123
+                        </div>
+
+                        <div id="Cell" class="tabcontent">
+                            +1(216)111-0123
+                        </div>
+                        <div id="Email" class="tabcontent">
+                            junder@gmail.com
+                        </div>
+                        <div id="Instagram" class="tabcontent">
+                            Instagram
+                        </div>
+
+                        <div id="Twitter" class="tabcontent">
+                            Twitter
+                        </div>
+
+                        <div id="Facebook" class="tabcontent">
+                            Facebook
+                        </div>
+                        <div id="Google" class="tabcontent">
+                            Google
+                        </div>
+
+
+                        <script>
+                            function openContact(evt, cityName) {
+                                var i, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablinks");
+                                for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                }
+                                document.getElementById(cityName).style.display = "block";
+                                evt.currentTarget.className += " active";
+                            }
+                        </script>
 
                         <div class="contact contact-info">
                             <ul>
-                                <li><a href="#" target="_blank" class="fas fa-phone wow bounceIn" data-wow-delay="0.3s">
-                                        :
-                                    </a>+1(216)000-0123
-                                </li>
-                                <li><a href="#" target="_blank" class="fas fa-mobile wow bounceIn"
-                                        data-wow-delay="0.3s"> :
-                                    </a>+1(216)111-0123
-                                </li>
-                                <li><a href="#" target="_blank" class="fas fa-envelope-open-text wow bounceIn"
-                                        data-wow-delay="0.3s"> :
-                                    </a>junder@gmail.com
-                                </li>
+                                
                                 <li><a href="#" target="_blank" class="fas fa-birthday-cake wow bounceIn"
                                         data-wow-delay="0.6s"> : </a>Jun 6, 1996
                                 </li>
 
-                                <li><a href="#" target="_blank" class="fas fa-heart wow bounceIn"
-                                    data-wow-delay="0.6s"> :
+                                <li><a href="#" target="_blank" class="fas fa-heart wow bounceIn" data-wow-delay="0.6s">
+                                        :
 
-                                </a>123 Favorite Dr, Cleveland, OH 123456
+                                    </a>123 Favorite Dr, Cleveland, OH 123456
 
                                 <li><a href="#" target="_blank" class="fas fa-sign-in-alt wow bounceIn"
                                         data-wow-delay="0.6s"> :
 
                                     </a>13
                                 </li>
-                                
-                            </li>
+
+                                </li>
 
                                 <li><a href="#" target="_blank" class="fas fa-dollar-sign wow bounceIn"
                                         data-wow-delay="0.6s"> :
