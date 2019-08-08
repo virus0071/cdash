@@ -232,9 +232,11 @@ body {font-family: Arial;}
 .fas,
  .fab{
 	font-size:30px;
+	margin-top: 20px;
 }
 .tab {
   overflow: hidden;
+ 
   background-color: #f1f1f1;
   margin-top:40px;
   margin-bottom:40px;
@@ -266,7 +268,7 @@ body {font-family: Arial;}
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  
+  border: 1px solid #ccc;
   border-top: none;
 }
 
