@@ -49,6 +49,8 @@ h4 {
 }
 h5 {
 	font-size: 18px;
+	text-align: left;
+	margin-left: 20%;
 }
 h6 {
 	font-size: 16px;
@@ -221,8 +223,22 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background-color: #202020;
 }
 
+
+#fas{
+	float:right;
+}
+#jumbotron-order{
+	float:right;
+	text-align: left;
+}
+
 #myPhoto{
 	padding-left: -10%;
+}
+
+#compare{
+	max-width: 400px;
+	max-height: 400px;
 }
 
 /* customer section */
@@ -336,8 +352,7 @@ footer .copyright a {
 .social-icon {
 	padding: 0;
 	margin: 0;
-	text-align: center;
-	vertical-align: middle;
+	
 }
 .social-icon li {
 	list-style: none;
@@ -347,14 +362,17 @@ footer .copyright a {
 	background: #f8f8f8;
 	border-radius: 100%;
 	color: #eb5424;
-	font-size: 15px;
+	font-size: 35px;
 	width: 20px;
 	height: 20px;
 	line-height: 25px;
-	text-align: center;
+	
 	text-decoration: none;
 	transition: all 0.4s ease-in-out;
-	margin: 0 6px 40px 6px;
+	margin-right: 30px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 40px;
 }
 .social-icon li a:hover {
 	background: #080808;
