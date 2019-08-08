@@ -224,6 +224,16 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 
 
+
+/* customer section */
+
+.contact ul li{
+	list-style-type:none;
+	text-align: left;
+	padding-left: 450px;
+	font-size:20px;
+	}
+	
 #fas{
 	float:right;
 }
@@ -241,7 +251,6 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	max-height: 400px;
 }
 
-/* customer section */
 #cust {
 	background-color: #ffffff;
 	padding-top:100px;
