@@ -232,7 +232,8 @@ body {font-family: Arial;}
 .fas,
  .fab{
 	font-size:30px;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-bottom:10px;
 }
 .tab {
   overflow: hidden;
