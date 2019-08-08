@@ -226,6 +226,50 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 
 
 /* customer section */
+body {font-family: Arial;}
+
+/* Style the tab */
+.fas,
+ .fab{
+	font-size:30px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
 .contact ul li{
 	list-style-type:none;
@@ -233,6 +277,12 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-left: 450px;
 	font-size:20px;
 	}
+	
+
+#jumbotron-order{
+	float:right;
+	text-align: left;
+}
 
 #myPhoto{
 	padding-left: -10%;
