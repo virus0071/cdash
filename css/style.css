@@ -233,14 +233,6 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-left: 450px;
 	font-size:20px;
 	}
-	
-#fas{
-	float:right;
-}
-#jumbotron-order{
-	float:right;
-	text-align: left;
-}
 
 #myPhoto{
 	padding-left: -10%;
