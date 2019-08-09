@@ -237,16 +237,19 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 
 .right{
 	float:right;
-	margin-top:-36%;
+	margin-top:-28.5%;
 	margin-right:2%;
 	width:30%;
 }
 /* customer section */
 body {font-family: Arial;}
-
+.btn{
+	margin-top:20px;
+}
 /* Style the tab */
 .fas,
- .fab{
+ .fab,
+ .far{
 	font-size:30px;
 	margin-top: 15px;
 	margin-bottom:10px;
@@ -324,17 +327,17 @@ body {font-family: Arial;}
 #cust .title {
 	padding: 100px 60px 60px 60px;
 }
-#cust .bg-black {
-	background-color: #303030;
+#cust .bg-blue {
+	background-color: lightblue;
 	color: #ffffff;
+	height:600px;
 }
-#cust .bg-red {
-	background-color: #eb5424;
+#cust .bg-gray {
+	background-color: gray;
 	color: #ffffff;
+	height:600px;
 }
-#cust h3 {
-	padding-bottom: 60px;
-}
+
 #cust .fa {
 	color: blueviolet;
 	cursor: pointer;

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/nivo_themes/default/default.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Button style-->
+    <link rel="stylesheet" href="css/button.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -76,23 +79,22 @@
 
     <!--customer Dashboard-->
     <section id="cust">
+        <h2>Customer Dashboard</h2>
+
         <div class="container">
-                <h2 class="wow fadeIn" data-wow-delay="0.9s">Customer Dashboard</h2>
-            <div class="left">
-                
-                <div class=" wow fadeInUp" data-wow-delay="0.9s">
-
-                    <div class="jumbotron jumbotron-photo">
-
-                        <h4>Jason</h4>
-                        <h4>Underwood</h4>
-
-
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="col-md-12 col-sm-12 ">
+                        <h3>Jason</h3>
+                        <h3>Underwood</h3>
+                        <hr>
                         <img class="myPhoto" src="images/nn.jpg" />
+                        <br>
+                        <button type="button" class="btn btn-primary">Update</button>
+                        <button type="button" class="btn btn-warning">Remove</button>
 
-
-
-
+                    </div>
+                    <div class="col-md-12 col-sm-12">
 
                         <div class="tab">
                             <button class="tablinks" onclick="openContact(event, 'Phone')"><a target="_blank"
@@ -139,7 +141,6 @@
                             Google
                         </div>
 
-
                         <script>
                             function openContact(evt, contactName) {
                                 var i, tabcontent, tablinks;
@@ -156,103 +157,58 @@
                             }
                         </script>
 
-                        <div class="contact contact-info">
-                            <ul>
+                        <div class="col-md-12 col-sm-12 ">
+                            <h3>Notes</h3>
 
-                                <li><a href="#" target="_blank" class="fas fa-birthday-cake wow bounceIn"
-                                        data-wow-delay="0.6s"> : </a>Jun 6, 1996
-                                </li>
+                            <h5>App download:
+                                <br>
+                                <input type="checkbox">yes <input type="checkbox"> no</h5>
 
-                                <li><a href="#" target="_blank" class="fas fa-heart wow bounceIn" data-wow-delay="0.6s">
-                                        :
+                            <h5>Dwell time average: 53 MIN</h5>
 
-                                    </a>123 Favorite Dr, Cleveland, OH 123456
+                            <h5>Total locations visited: 4</h5>
 
-                                <li><a href="#" target="_blank" class="fas fa-sign-in-alt wow bounceIn"
-                                        data-wow-delay="0.6s"> :
+                            <h5>Average guest size: 2 </h5>
 
-                                    </a>13
-                                </li>
+                            <h5>Average ticket size: $45.10 </h5>
 
-                                </li>
+                            <h5>Favorite staffers: N/A</h5>
 
-                                <li><a href="#" target="_blank" class="fas fa-dollar-sign wow bounceIn"
-                                        data-wow-delay="0.6s"> :
+                            <h5>Last visit: Aug 5, 2019</h5>
+                            <h5>Rating:
+                                <br>
 
-                                    </a>$586.3
-                                </li>
-
-                                <li><span class="heading">Ranking</span>
-                                    <span class="fas fa-star checked"></span>
-                                    <span class="fas fa-star checked"></span>
-                                    <span class="fas fa-star checked"></span>
-                                    <span class="fas fa-star checked"></span>
-                                    <span class="far fa-star"></span>
-                                </li>
-                            </ul>
-                        </div>
+                                <span class="heading">Overall</span> : 4.0
+                                <br>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="far fa-star"></span>
+                                <br>
 
 
-                    </div>
+                            </h5>
 
-
-                    
-                    <div class=" wow fadeInUp"
-                        data-wow-delay="0.9s">
-
-
-                        <div class="jumbotron jumbotron-orderInfo">
-                            <p>Dwell time average: 53 MIN</p>
-
-                            <p>Total locations visited: 4</p>
-
-                            <p>Average guest size: 2 </p>
-
-                            <p>Average ticket size: $45.10 </p>
-
-                            <p>Favorite staffers: N/A</p>
-
-                            <p>Last visit: Aug 5, 2019</p>
                         </div>
                     </div>
-
                 </div>
-
-            </div>
-
-            <div class="middle">
-                <div class="contact-form wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="jumbotron jumbotron-order">
-                        Order Preference:
+                <div class="col-md-9 col-sm-9">
+                    <div class="col-md-6 col-sm-6 bg-blue">
+                        <h3>Order Preference</h3>
                         <hr>
-                        <iframe width="1000" height="650"
+                        <iframe width="90%" height="70%"
                             src="https://app.powerbi.com/view?r=eyJrIjoiYTJkN2ExMzctNjQzOS00ZmMzLWJjNjItNDYzNzU1Y2I3YjJiIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
                             frameborder="0" allowFullScreen="true"></iframe>
-
                     </div>
-                </div>
-
-                <div class=" wow fadeInUp" data-wow-delay="0.9s">
-                        <div class="jumbotron jumbotron-order">
-                            Consistency/Frequency:
-                            <hr>
-                            <img class="compare" src="images/in/fre-1.jpg" />
-                        </div>
-                    </div>
-
-            </div>   
-
-            <div class="right">
-                <div class="wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="jumbotron jumbotron-order">
-                        Description:
+                    <div class="col-md-6 col-sm-6 bg-gray">
+                        <h3>Description</h3>
                         <hr>
-                        <h4>Description #1</h4>
-                        <br>
-                        <h4>Description #2</h4>
-                        <br>
-                        <h4>Description #3</h4>
-                        <br>
+
+
+                        <h3>Description #1</h3>
+                        <h3>Description #2</h3>
+                        <h3>Description #3</h3>
                         <div class="tab">
                             <button class="tablinks" onclick="openDescription(event, 'Description')"><a target="_blank"
                                     class="fas fa-plus wow bounceIn" data-wow-delay="0.3s">
@@ -260,9 +216,9 @@
                         </div>
 
                         <div id="Description" class="tabcontent">
-                                <input type="text" />
-                                <br>
-                                <input type="submit" value="Submit" />        
+                            <input type="text" />
+                            <br>
+                            <button type="button" class="btn btn-primary">Add</button>
                             </textarea>
                         </div>
 
@@ -283,101 +239,24 @@
                         </script>
 
                     </div>
-                </div>
-           
+                    <div class="col-md-6 col-sm-6 bg-gray">
 
+                        <h3>Consistency/Frequency</h3>
+                        <hr>
 
+                    </div>
+                    <div class="col-md-6 col-sm-6 bg-blue">
 
-            <div class=" wow fadeInUp" data-wow-delay="0.9s">
-                <div class="jumbotron jumbotron-order">
-                    Notes:
-                    <br>
-                    <hr>
-                    <h5>App download:
-                        <br>
-                        <input type="checkbox">yes <input type="checkbox"> no</h5>
-                    <hr>
-                    <h5>Consistency/Frequency:
-                        <br>
-                        60%</h5>
-                    <hr>
-                    <h5>images here:
-                        <br>
-                    </h5>
-                    <hr>
-                    <h5>Rules:
-                        <br>
-                        No approach with alcohol; No approach with unhealthy food with coworkers;</h5>
-                    <hr>
-                    <h5>Online review history:
-                        <br>
-                        Twittwe | Yelp | Facebook |</h5>
-                    <hr>
-                    <h5>Favorite menu order:
-                        <br>
-                        Asian food |</h5>
-                    <hr>
-                    <h5>Rating:
-                        <br>
+                        <h3>Word Cloud</h3>
+                        <hr>
 
-                        <span class="heading">Overall</span> : 4.0
-                        <br>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="far fa-star"></span>
-                        <br>
-                        <span class="heading">Food</span> : 4.0
-                        <br>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="far fa-star"></span>
-                        <br>
-                        <span class="heading">Service</span> : 4.0
-                        <br>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="far fa-star"></span>
-                        <br>
-                        <span class="heading">Beverage</span> : 3.0
-                        <br>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="far fa-star"></span>
-                        <span class="far fa-star"></span>
-                        <br>
-                        <span class="heading">Atmosphere</span> 4
-                        <br>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="far fa-star"></span>
-                        <br>
-                        <span class="heading">Price</span> : 5.0
-                        <br>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-                        <span class="fas fa-star checked"></span>
-
-                    </h5>
+                        <iframe width="95%" height="75%"
+                            src="https://app.powerbi.com/view?r=eyJrIjoiNDQxZjIwZWItOWNjMC00Y2M4LWIwYWEtMmNiNmMzMzg3ZTdiIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
+                            frameborder="0" allowFullScreen="true"></iframe>
+                    </div>
                 </div>
             </div>
-
-
-
         </div>
-
-        </div>
- 
     </section>
 
     <!--employee Dashboard-->
@@ -386,7 +265,7 @@
         <div class="container">
             <div class="row">
                 <h2 class="wow fadeIn" data-wow-delay="0.9s">Employee Dashboard</h2>
-                <div class="col-lg-4 .col-md-4 .col-sm-4 .col-xs-4 contact-form wow fadeInUp" data-wow-delay="0.9s">
+                <div class="col-lg-6 .col-md-4 .col-sm-4 .col-xs-4 contact-form wow fadeInUp" data-wow-delay="0.9s">
                     <div class="jumbotron jumbotron-photo">
                         <h3>Top performers: </h3>
                         <h3>ID#: </h3>
@@ -486,6 +365,7 @@
     <script src="js/jquery.parallax.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
+
 
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/ddf5fb68db.js"></script>
