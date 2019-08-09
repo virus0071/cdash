@@ -223,8 +223,24 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background-color: #202020;
 }
 
+.left{
+	float:left;
+	width:25%;
+	margin-left:1%;
+}
 
+.middle{
+	margin-left:27%;
+	margin-top:2%;
+	width:40%;
+}
 
+.right{
+	float:right;
+	margin-top:-32%;
+	margin-right:2%;
+	width:30%;
+}
 /* customer section */
 body {font-family: Arial;}
 
@@ -281,10 +297,6 @@ body {font-family: Arial;}
 	}
 	
 
-#jumbotron-order{
-	float:right;
-	text-align: left;
-}
 
 #myPhoto{
 	padding-left: -10%;
