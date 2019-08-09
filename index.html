@@ -77,10 +77,10 @@
     <!--customer Dashboard-->
     <section id="cust">
         <div class="container">
-
-            <div class="row">
                 <h2 class="wow fadeIn" data-wow-delay="0.9s">Customer Dashboard</h2>
-                <div class="col-lg-4 .col-md-4 .col-sm-4 .col-xs-4 contact-form wow fadeInUp" data-wow-delay="0.9s">
+            <div class="row left">
+                
+                <div class=" wow fadeInUp" data-wow-delay="0.9s">
 
                     <div class="jumbotron jumbotron-photo">
 
@@ -141,7 +141,7 @@
 
 
                         <script>
-                            function openContact(evt, cityName) {
+                            function openContact(evt, contactName) {
                                 var i, tabcontent, tablinks;
                                 tabcontent = document.getElementsByClassName("tabcontent");
                                 for (i = 0; i < tabcontent.length; i++) {
@@ -151,7 +151,7 @@
                                 for (i = 0; i < tablinks.length; i++) {
                                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                                 }
-                                document.getElementById(cityName).style.display = "block";
+                                document.getElementById(contactName).style.display = "block";
                                 evt.currentTarget.className += " active";
                             }
                         </script>
@@ -179,7 +179,7 @@
                                 <li><a href="#" target="_blank" class="fas fa-dollar-sign wow bounceIn"
                                         data-wow-delay="0.6s"> :
 
-                                    </a>$135.28
+                                    </a>$586.3
                                 </li>
 
                                 <li><span class="heading">Ranking</span>
@@ -195,7 +195,9 @@
 
                     </div>
 
-                    <div class="col-lg-12 .col-md-12 .col-sm-12 .col-xs-12 contact-form wow fadeInUp"
+
+                    
+                    <div class=" wow fadeInUp"
                         data-wow-delay="0.9s">
 
 
@@ -216,143 +218,160 @@
 
                 </div>
 
-                <div class="col-lg-5 .col-md-5 .col-sm-5 .col-xs-5 contact-form wow fadeInUp" data-wow-delay="0.9s">
+            </div>
+
+            <div class="row middle">
+                <div class="contact-form wow fadeInUp" data-wow-delay="0.9s">
                     <div class="jumbotron jumbotron-order">
                         Order Preference:
                         <hr>
-                        <img class="compare" src="images/in/1-1.png" />
-
-                        <img class="compare" src="images/in/2-1.png" />
-
-                        <img class="compare" src="images/in/3-1.png" />
+                        <iframe width="1200" height="800"
+                            src="https://app.powerbi.com/view?r=eyJrIjoiYTJkN2ExMzctNjQzOS00ZmMzLWJjNjItNDYzNzU1Y2I3YjJiIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
+                            frameborder="0" allowFullScreen="true"></iframe>
 
                     </div>
                 </div>
 
+                <div class=" wow fadeInUp" data-wow-delay="0.9s">
+                        <div class="jumbotron jumbotron-order">
+                            Consistency/Frequency:
+                            <hr>
+                            <img class="compare" src="images/in/fre-1.jpg" />
+                        </div>
+                    </div>
 
-                <div class="col-lg-3 .col-md-3 .col-sm-3 .col-xs-3 contact-form wow fadeInUp" data-wow-delay="0.9s">
+            </div>   
+
+            <div class="row right">
+                <div class="wow fadeInUp" data-wow-delay="0.9s">
                     <div class="jumbotron jumbotron-order">
                         Description:
                         <br>
-                        No Ginger
-                        <hr>
-                        No Alcohol
-                        <hr>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openDescription(event, 'Description')"><a target="_blank"
+                                    class="fas fa-plus wow bounceIn" data-wow-delay="0.3s">
+                                </a></button>
+                        </div>
+
+                        <div id="Description" class="tabcontent">
+                                <input type="text" />
+                                <br>
+                                <input type="submit" value="Submit" />        
+                            </textarea>
+                        </div>
+
+                        <script>
+                            function openDescription(evt, descripName) {
+                                var i, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablinks");
+                                for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                }
+                                document.getElementById(descripName).style.display = "block";
+                                evt.currentTarget.className += " active";
+                            }
+                        </script>
+
+                    </div>
+                </div>
+           
+
+
+
+            <div class=" wow fadeInUp" data-wow-delay="0.9s">
+                <div class="jumbotron jumbotron-order">
+                    Notes:
+                    <br>
+                    <hr>
+                    <h5>App download:
                         <br>
-                        <hr>
-                        <form action="#" method="post">
-                            <textarea rows="10" cols="25">
-
-                                </textarea>
-                            <input type="submit" class="form-control" value="Add">
-                        </form>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 .col-md-5 .col-sm-5 .col-xs-5 contact-form wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="jumbotron jumbotron-order">
-                        Consistency/Frequency:
-                        <hr>
-                        <img class="compare" src="images/in/fre-1.jpg" />
-                    </div>
-                </div>
-
-                <div class="col-lg-3 .col-md-3 .col-sm-3 .col-xs-3 contact-form wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="jumbotron jumbotron-order">
-                        Notes:
+                        <input type="checkbox">yes <input type="checkbox"> no</h5>
+                    <hr>
+                    <h5>Consistency/Frequency:
                         <br>
-                        <hr>
-                        <h5>App download:
-                            <br>
-                            <input type="checkbox">yes <input type="checkbox"> no</h5>
-                        <hr>
-                        <h5>Consistency/Frequency:
-                            <br>
-                            3 times/ week</h5>
-                        <hr>
-                        <h5>images here:
-                            <br>
-                        </h5>
-                        <hr>
-                        <h5>Rules:
-                            <br>
-                            No approach with alcohol; No approach with unhealthy food with coworkers;</h5>
-                        <hr>
-                        <h5>Online review history:
-                            <br>
-                            Twittwe | Yelp | Facebook |</h5>
-                        <hr>
-                        <h5>Favorite menu order:
-                            <br>
-                            Asian food |</h5>
-                        <hr>
-                        <h5>Rating:
-                            <br>
+                        60%</h5>
+                    <hr>
+                    <h5>images here:
+                        <br>
+                    </h5>
+                    <hr>
+                    <h5>Rules:
+                        <br>
+                        No approach with alcohol; No approach with unhealthy food with coworkers;</h5>
+                    <hr>
+                    <h5>Online review history:
+                        <br>
+                        Twittwe | Yelp | Facebook |</h5>
+                    <hr>
+                    <h5>Favorite menu order:
+                        <br>
+                        Asian food |</h5>
+                    <hr>
+                    <h5>Rating:
+                        <br>
 
-                            <span class="heading">Overall</span> : 4.0
-                            <br>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="far fa-star"></span>
-                            <br>
-                            <span class="heading">Food</span> : 4.0
-                            <br>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="far fa-star"></span>
-                            <br>
-                            <span class="heading">Service</span> : 4.0
-                            <br>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="far fa-star"></span>
-                            <br>
-                            <span class="heading">Beverage</span> : 3.0
-                            <br>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="far fa-star"></span>
-                            <span class="far fa-star"></span>
-                            <br>
-                            <span class="heading">Atmosphere</span> 4
-                            <br>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="far fa-star"></span>
-                            <br>
-                            <span class="heading">Price</span> : 5.0
-                            <br>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
-                            <span class="fas fa-star checked"></span>
+                        <span class="heading">Overall</span> : 4.0
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="far fa-star"></span>
+                        <br>
+                        <span class="heading">Food</span> : 4.0
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="far fa-star"></span>
+                        <br>
+                        <span class="heading">Service</span> : 4.0
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="far fa-star"></span>
+                        <br>
+                        <span class="heading">Beverage</span> : 3.0
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="far fa-star"></span>
+                        <span class="far fa-star"></span>
+                        <br>
+                        <span class="heading">Atmosphere</span> 4
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="far fa-star"></span>
+                        <br>
+                        <span class="heading">Price</span> : 5.0
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
 
-                        </h5>
-                    </div>
+                    </h5>
                 </div>
-
-
-
-
-
             </div>
 
 
 
+        </div>
 
         </div>
-        </div>
-        </div>
+ 
     </section>
 
     <!--employee Dashboard-->
@@ -365,7 +384,7 @@
                     <div class="jumbotron jumbotron-photo">
                         <h3>Top performers: </h3>
                         <h3>ID#: </h3>
-                        <img id="myPhoto" src="images/nan.jpg" />
+                        <img id="myPhoto" src="images/nn.jpg" />
 
                     </div>
                 </div>
@@ -387,9 +406,10 @@
 
                 <div class="col-lg-5 .col-md-5 .col-sm-5 .col-xs-5 contact-form wow fadeInUp" data-wow-delay="0.9s">
                     <div class="jumbotron jumbotron-order">
-                        Status comparison:
-
-                    </div>
+                        Time & Party Size Analysis
+                        <iframe width="1200" height="900"
+                            src="https://app.powerbi.com/view?r=eyJrIjoiMDU3ZmIzMjMtNDQ0YS00Mzc3LWIwNTgtMWVhYTVjODQ4OGQyIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
+                            frameborder="0" allowFullScreen="true"></iframe> </div>
                 </div>
 
                 <div class="col-lg-5 .col-md-5 .col-sm-5 .col-xs-5 contact-form wow fadeInUp" data-wow-delay="0.9s">
