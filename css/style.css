@@ -237,7 +237,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 
 .right{
 	float:right;
-	margin-top:-32%;
+	margin-top:-28.5%;
 	margin-right:2%;
 	width:30%;
 }
