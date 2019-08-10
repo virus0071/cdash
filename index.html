@@ -87,11 +87,16 @@
                     <div class="col-md-12 col-sm-12 ">
                         <h3>Jason</h3>
                         <h3>Underwood</h3>
-                        <hr>
                         <img class="myPhoto" src="images/nn.jpg" />
                         <br>
                         <button type="button" class="btn btn-primary">Update</button>
                         <button type="button" class="btn btn-warning">Remove</button>
+                        <br>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="far fa-star"></span>
 
                     </div>
                     <div class="col-md-12 col-sm-12">
@@ -157,12 +162,9 @@
                             }
                         </script>
 
-                        <div class="col-md-12 col-sm-12 ">
-                            <h3>Notes</h3>
-
-                            <h5>App download:
-                                <br>
-                                <input type="checkbox">yes <input type="checkbox"> no</h5>
+                        <h3>Notes</h3>
+                        <hr>
+                        <div class="col-md-6 col-sm-6 ">
 
                             <h5>Dwell time average: 53 MIN</h5>
 
@@ -175,20 +177,36 @@
                             <h5>Favorite staffers: N/A</h5>
 
                             <h5>Last visit: Aug 5, 2019</h5>
-                            <h5>Rating:
-                                <br>
-
-                                <span class="heading">Overall</span> : 4.0
-                                <br>
-                                <span class="fas fa-star checked"></span>
-                                <span class="fas fa-star checked"></span>
-                                <span class="fas fa-star checked"></span>
-                                <span class="fas fa-star checked"></span>
-                                <span class="far fa-star"></span>
-                                <br>
 
 
-                            </h5>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 ">
+
+
+
+                            <h5>App download:
+                                <br>
+                                <input type="checkbox">yes <input type="checkbox"> no</h5>
+
+                            <h5>Consistency/Frequency:
+                                <br>
+                                60%</h5>
+
+
+
+                            <h5>Rules:
+                                <br>
+                                No approach with alcohol; No approach with unhealthy food with coworkers;</h5>
+
+                            <h5>Online review history:
+                                <br>
+                                Twitter | Yelp | Facebook |</h5>
+
+                            <h5>Favorite menu order:
+                                <br>
+                                Asian food |</h5>
+
 
                         </div>
                     </div>
@@ -197,7 +215,7 @@
                     <div class="col-md-6 col-sm-6 bg-blue">
                         <h3>Order Preference</h3>
                         <hr>
-                        <iframe width="90%" height="70%"
+                        <iframe width="100%" height="80%"
                             src="https://app.powerbi.com/view?r=eyJrIjoiYTJkN2ExMzctNjQzOS00ZmMzLWJjNjItNDYzNzU1Y2I3YjJiIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
                             frameborder="0" allowFullScreen="true"></iframe>
                     </div>
@@ -231,10 +249,10 @@
                                 }
                                 tablinks = document.getElementsByClassName("tablinks");
                                 for (i = 0; i < tablinks.length; i++) {
-                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                    tablinks[i].className = tablinks[i].className.replace("active", "");
                                 }
                                 document.getElementById(descripName).style.display = "block";
-                                evt.currentTarget.className += " active";
+                                evt.currentTarget.className += "active";
                             }
                         </script>
 
@@ -247,12 +265,69 @@
                     </div>
                     <div class="col-md-6 col-sm-6 bg-blue">
 
-                        <h3>Word Cloud</h3>
+                        <h3>Word Cloud & Ranking</h3>
                         <hr>
+                        <div class="col-md-8 col-sm-8">
 
-                        <iframe width="95%" height="75%"
-                            src="https://app.powerbi.com/view?r=eyJrIjoiNDQxZjIwZWItOWNjMC00Y2M4LWIwYWEtMmNiNmMzMzg3ZTdiIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
-                            frameborder="0" allowFullScreen="true"></iframe>
+
+                            <iframe width="600px" height="450px"
+                                src="https://app.powerbi.com/view?r=eyJrIjoiNDQxZjIwZWItOWNjMC00Y2M4LWIwYWEtMmNiNmMzMzg3ZTdiIiwidCI6ImU1N2UyNjNmLWU5OGQtNDZkMy05YmRkLTQwOWY0NWI3YTc2YyIsImMiOjN9"
+                                frameborder="0" allowFullScreen="true"></iframe>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+
+                            <span class="heading">Overall</span> : 4.0
+                            <br>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="far fa-star"></span>
+                            <br>
+                            <span class="heading">Food</span> : 4.0
+                            <br>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="far fa-star"></span>
+                            <br>
+                            <span class="heading">Service</span> : 4.0
+                            <br>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="far fa-star"></span>
+                            <br>
+                            <span class="heading">Beverage</span> : 3.0
+                            <br>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="far fa-star"></span>
+                            <span class="far fa-star"></span>
+                            <br>
+                            <span class="heading">Atmosphere</span> 4
+                            <br>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="far fa-star"></span>
+                            <br>
+                            <span class="heading">Price</span> : 5.0
+                            <br>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+
+                            </h5>
+
+                        </div>
+
                     </div>
                 </div>
             </div>

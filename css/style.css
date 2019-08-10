@@ -246,6 +246,10 @@ body {font-family: Arial;}
 .btn{
 	margin-top:20px;
 }
+
+.checked{
+color:orange;
+}
 /* Style the tab */
 .fas,
  .fab,
@@ -353,6 +357,12 @@ body {font-family: Arial;}
 	background-color: #ffffff;
 	border-radius: 50%;
 	color: #303030;
+}
+
+.heading{
+	font-size: 18px;
+	text-align: left;
+	font-weight:bold;
 }
 
 /* employee section */
