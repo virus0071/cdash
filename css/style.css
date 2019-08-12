@@ -249,16 +249,18 @@ body {font-family: Arial;}
 
 .fa-copper{
 	color:#B87333; 
+	padding-top:20px;
 
 }
 
 .fa-silver{
 	color:#c0c0c0;
-
-}
+	padding-top:20px;
+	}
 
 .fa-gold{
 	color:orange;
+	padding-top:20px;
 }
 
 .checked{
