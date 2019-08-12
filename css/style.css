@@ -247,6 +247,20 @@ body {font-family: Arial;}
 	margin-top:20px;
 }
 
+.fa-copper{
+	color:#B87333; 
+
+}
+
+.fa-silver{
+	color:#c0c0c0;
+
+}
+
+.fa-gold{
+	color:orange;
+}
+
 .checked{
 color:orange;
 }
@@ -309,7 +323,9 @@ color:orange;
 	}
 	
 
-
+.boldFont{
+	font-weight:bold;
+}
 #myPhoto{
 	padding-left: -10%;
 }
@@ -368,6 +384,72 @@ color:orange;
 	font-size: 18px;
 	text-align: left;
 	font-weight:bold;
+}
+.fa-des{
+	font-size:40px;
+}
+.myButton-red{
+	background-color:#f71e25;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #fa1238;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myButton-lightgreen{
+	background-color:lightgreen;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid lightgreen;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myButton-yellow{
+	background-color:yellow;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid yellow;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myButton-green{
+	background-color:#0ab99c;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #0ab99c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
 }
 
 /* employee section */
